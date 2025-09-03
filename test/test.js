@@ -46,5 +46,7 @@ QUnit.module('main.js tests', function() {
         //Assert
         assert.equal(result, expected, 'add(2, -3) should return -1');
     });
+    //add alert box test
+    
 
 });
