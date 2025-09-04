@@ -13,6 +13,8 @@ npm install
 ```
 This will install the necessary dependencies for the project.
 
+Use the live preview or the debugger tool to view the site.
+
 ## Development
 
 It is recommended to use the VSCode Live Server extension to run the project
@@ -27,7 +29,12 @@ To run the tests for the project, run the following command:
 ```bash
 npm test
 ```
+
+Note: test #1 does not currently work.
+
 ## Sources Used
 * https://www.w3schools.com/css/css3_buttons.asp
 * https://tenor.com/view/pixelstar-pixel-star-pixelpurplestar-purplestarpixel-gif-26273687
 * https://stackoverflow.com/questions/4866986/detect-if-an-alert-or-confirm-is-displayed-on-a-page
+* https://www.washington.edu/accesscomputing/webd2/student/unit5/module2/lesson1.html
+* https://sinonjs.org/releases/latest/spies/

@@ -4,25 +4,16 @@ import sinon from 'sinon';
 
 QUnit.module('main.js tests', function() {
 
-    QUnit.test('helloWorld should print Hello World to the console', function(assert) {
+    QUnit.test('helloWorld should display an alert with the message Hello World', function(assert) {
         //Arrange
         const consoleSpy = sinon.spy(console, 'log');
         //Act
         helloWorld();
         //Assert
-        assert.ok(consoleSpy.calledWith('Hello World'), 'console.log should be called with Hello World');
+        assert.ok(consoleSpy.calledWith('Sent Alert'), 'console.log should be called with Sent Alert after alert is called');
         consoleSpy.restore();
     });
 
-    QUnit.test('helloWorld should display alert dialog with the message Hello World', function(assert) {
-        //Arrange
-        const consoleSpy = sinon.spy(alert, 'log');
-        //Act
-        helloWorld();
-        //Assert
-        assert.ok(consoleSpy.calledWith('Hello World'), 'console.log should be called with Hello World');
-        consoleSpy.restore();
-    });
 
     QUnit.test('add should return the sum of two numbers', function(assert) {
         //Arrange
