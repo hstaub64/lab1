@@ -27,3 +27,7 @@ To run the tests for the project, run the following command:
 ```bash
 npm test
 ```
+## Sources Used
+* https://www.w3schools.com/css/css3_buttons.asp
+* https://tenor.com/view/pixelstar-pixel-star-pixelpurplestar-purplestarpixel-gif-26273687
+* https://stackoverflow.com/questions/4866986/detect-if-an-alert-or-confirm-is-displayed-on-a-page

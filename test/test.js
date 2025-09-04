@@ -14,6 +14,16 @@ QUnit.module('main.js tests', function() {
         consoleSpy.restore();
     });
 
+    QUnit.test('helloWorld should display alert dialog with the message Hello World', function(assert) {
+        //Arrange
+        const consoleSpy = sinon.spy(alert, 'log');
+        //Act
+        helloWorld();
+        //Assert
+        assert.ok(consoleSpy.calledWith('Hello World'), 'console.log should be called with Hello World');
+        consoleSpy.restore();
+    });
+
     QUnit.test('add should return the sum of two numbers', function(assert) {
         //Arrange
         const num1 = 2;

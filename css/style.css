@@ -9,10 +9,53 @@ table {
   margin-bottom: 20px;
 }
 
+img{
+  width: 100px;
+  height: auto;
+}
+
+body {
+  background-color: rgb(147, 89, 157);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  color:#2d1032;
+  font-size: larger;
+}
+
+ul {
+  list-style-position: inside;
+}
+
+button {
+  background-color: #643465;
+  border: #3f283f;
+  border-width: 10px;
+  border-radius: 8px;
+  font-size: large;
+  border-spacing: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color:#26072c
+}
+
+div {
+  border: #2d1032;
+  border-width: 8px;
+  border-radius: 8px;
+  border-style: groove;
+}
+
+p1 {
+  font-size: 20px;
+}
+
+button:hover {
+  box-shadow: 0 8px hsla(300, 22%, 20%, 0.315);
+}
+
 th, td {
   padding: 12px 15px;
   text-align: left;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid rgba(221, 221, 221);
 }
 
 th {
